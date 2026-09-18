@@ -66,12 +66,14 @@ _Nota: Após a conclusão do deploy, o endereço IP público da sua instância s
 
 ---
 
-## 📸 Evidências de Funcionamento (Entregáveis)
+## Diagrama, de Funcionamento
 
-Para validação do projeto, certifique-se de documentar:
-- [ ] Print ou log da instância EC2 com a aplicação rodando respondendo ao `curl /produtos`.
-- [ ] Print do Console AWS mostrando a mensagem chegando na fila do SQS.
-- [ ] Print dos logs da função Lambda executada com sucesso no CloudWatch.
+<img width="2172" height="724" alt="Diagrama" src="https://github.com/user-attachments/assets/40bc35ac-6569-4a81-ae83-798ef70613ab" />
+
+
+- [ ]  log da instância EC2 com a aplicação rodando respondendo ao `curl /produtos`.
+- [ ]  AWS mostrando a mensagem chegando na fila do SQS.
+- [ ]  Lambda executada com sucesso no CloudWatch.
 
 ---
 
