@@ -83,4 +83,4 @@ Para evitar custos desnecessários e limpar todos os recursos criados no laborat
 ```bash
 terraform destroy -auto-approve
 ```
-**(Atenção: Não deixe o `terraform apply` rodando permanentemente após a validação do tutor!)**
+**(Atenção: Não deixe o `terraform apply` rodando permanentemente após a validação)**
