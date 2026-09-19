@@ -1,10 +1,10 @@
-# Projeto E-commerce AWS - Capacita iRede (IFCE) 🚀
+# ☁️| Projeto E-commerce AWS - Capacita iRede (IFCE) 
 
 Trabalho final desenvolvido para o **Curso de Computação em Nuvem** do Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE) em parceria com o Capacita iRede.
 
 Este projeto implementa uma arquitetura de e-commerce resiliente e assíncrona na AWS utilizando conceitos de Infraestrutura como Código (IaC) e Computação Serverless.
 
-## 🏗️ Arquitetura do Projeto
+## 🏗️| Arquitetura do Projeto
 
 O fluxo de dados da aplicação segue o modelo desacoplado:
 **Usuário** ➔ **API (Flask rodando em EC2)** ➔ **Fila SQS** ➔ **Função Lambda** ➔ **Logs do CloudWatch**
@@ -16,7 +16,7 @@ O fluxo de dados da aplicação segue o modelo desacoplado:
 
 ---
 
-## 📂 Estrutura do Repositório
+## 🗂️| Estrutura do Repositório
 
 ```text
 ├── terraform/     # Infraestrutura como Código (VPC, Subnet, IGW, Route Table, SG, EC2, SQS, Lambda, IAM)
@@ -28,7 +28,7 @@ O fluxo de dados da aplicação segue o modelo desacoplado:
 
 ---
 
-## 🛠️ Pré-requisitos
+## 🖥️| Pré-requisitos
 
 Antes de começar, você precisará ter instalado em sua máquina:
 * **Terraform 1.0+**
@@ -36,7 +36,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 ---
 
-## 🚀 Como Executar
+## 💻| Como Executar
 
 ### 1. Implantar a Infraestrutura
 Navegue até a pasta do Terraform, inicialize o provedor e aplique as configurações:
@@ -66,7 +66,7 @@ _Nota: Após a conclusão do deploy, o endereço IP público da sua instância s
 
 ---
 
-## Diagrama, de Funcionamento
+## 📉| Diagrama, de Funcionamento
 
 <img width="2172" height="724" alt="Diagrama" src="https://github.com/user-attachments/assets/40bc35ac-6569-4a81-ae83-798ef70613ab" />
 
@@ -77,10 +77,9 @@ _Nota: Após a conclusão do deploy, o endereço IP público da sua instância s
 
 ---
 
-## 🛑 Encerramento e Limpeza
+## 🛑| Encerramento e Limpeza
 
 Para evitar custos desnecessários e limpar todos os recursos criados no laboratório, execute:
 ```bash
 terraform destroy -auto-approve
 ```
-**(Atenção: Não deixe o `terraform apply` rodando permanentemente após a validação)**
